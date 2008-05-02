@@ -1,0 +1,97 @@
+gmult
+------------------------------------------
+Multiplication Puzzle is a simple GTK+ 2 game that emulates the 
+multiplication game found in Emacs. Basically, a multiplication problem 
+is shown with all digits replaced by letters.  Your job is to guess 
+which letter represents which number.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  glib2-2.14.6-1
+  glibmm24-2.14.2-1
+  gtk2-x11-2.12.9-1
+  gtkmm24-2.12.7-1
+  libintl8-0.15-1
+  libsigc++20-2.1.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20060817-1
+  cygport-0.3.10-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.3.4-3
+  gettext-devel-0.15-1
+  glib2-devel-2.14.6-1
+  gnome-common-2.20.0-1
+  intltool-0.36.3-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://mterry.name/gmult/
+
+Canonical download:
+  http://mterry.name/gmult/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gmult-5.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gmult-5.4-X.cygport all
+
+This will create:
+  /usr/src/gmult-5.4-X-src.tar.bz2
+  /usr/src/gmult-5.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/gmult.sh
+  /usr/bin/gmult.exe
+  /usr/share/applications/gmult.desktop
+  /usr/share/doc/gmult-5.4/ABOUT-NLS
+  /usr/share/doc/gmult-5.4/AUTHORS
+  /usr/share/doc/gmult-5.4/COPYING
+  /usr/share/doc/gmult-5.4/INSTALL
+  /usr/share/doc/gmult-5.4/NEWS
+  /usr/share/doc/gmult-5.4/README
+  /usr/share/doc/gmult-5.4/THANKS
+  /usr/share/icons/hicolor/48x48/apps/gmult.png
+  /usr/share/locale/af/LC_MESSAGES/gmult.mo
+  /usr/share/locale/de/LC_MESSAGES/gmult.mo
+  /usr/share/locale/eu/LC_MESSAGES/gmult.mo
+  /usr/share/locale/fi/LC_MESSAGES/gmult.mo
+  /usr/share/locale/fr/LC_MESSAGES/gmult.mo
+  /usr/share/locale/it/LC_MESSAGES/gmult.mo
+  /usr/share/locale/ja/LC_MESSAGES/gmult.mo
+  /usr/share/locale/ms/LC_MESSAGES/gmult.mo
+  /usr/share/locale/nl/LC_MESSAGES/gmult.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gmult.mo
+  /usr/share/locale/rm/LC_MESSAGES/gmult.mo
+  /usr/share/locale/ro/LC_MESSAGES/gmult.mo
+  /usr/share/locale/rw/LC_MESSAGES/gmult.mo
+  /usr/share/locale/sr/LC_MESSAGES/gmult.mo
+  /usr/share/locale/sv/LC_MESSAGES/gmult.mo
+  /usr/share/locale/tr/LC_MESSAGES/gmult.mo
+  /usr/share/locale/vi/LC_MESSAGES/gmult.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/gmult.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gmult.mo
+
+------------------
+
+Port Notes:
+
+----- version 5.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
