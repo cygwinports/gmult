@@ -3,3 +3,4 @@ inherit gnome2
 DESCRIPTION="GTK+ multiplicatin puzzle"
 HOMEPAGE="http://mterry.name/gmult/"
 SRC_URI="http://mterry.name/gmult/${P}.tar.bz2"
+PATCH_URI="6.0-gettext.patch"

@@ -1,0 +1,12 @@
+--- origsrc/gmult-6.0/configure.ac	2008-08-18 18:50:06.000000000 -0500
++++ src/gmult-6.0/configure.ac	2008-08-18 23:29:37.248046000 -0500
+@@ -21,8 +21,7 @@
+ GETTEXT_PACKAGE="$PACKAGE"
+ AC_SUBST(GETTEXT_PACKAGE)
+ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext domain])
+-AM_GNU_GETTEXT([external])
+-AM_GNU_GETTEXT_VERSION([0.17])
++AM_GLIB_GNU_GETTEXT
+ AC_PROG_INTLTOOL([0.37], [no-xml])
+ 
+ # Sets up a few prefix-relative directories

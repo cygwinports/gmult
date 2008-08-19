@@ -1,5 +1,5 @@
-category: Games Math
-requires: cygwin glib2 glibmm24 gtk2-x11 gtkmm24 libintl8 libsigc++20
+category: Games Gnome Math
+requires: cygwin glib2 gtk2-x11 libcairo2 libintl8
 sdesc: "GTK+ multiplication puzzle"
 ldesc: "Multiplication Puzzle is a simple GTK+ 2 game that emulates the
 multiplication game found in Emacs. Basically, a multiplication problem
