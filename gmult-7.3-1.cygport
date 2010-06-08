@@ -2,4 +2,4 @@ inherit gnome2
 
 DESCRIPTION="GTK+ multiplicatin puzzle"
 HOMEPAGE="http://mterry.name/gmult/"
-SRC_URI="http://launchpad.net/gmult/stable/${PV}/+download/${P}.tar.bz2"
+SRC_URI="http://launchpad.net/gmult/trunk/${PV}/+download/${P}.tar.bz2"
